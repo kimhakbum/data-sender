@@ -14,6 +14,13 @@
 		E07BA4C81F43C8B2002C58EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07BA4C61F43C8B2002C58EB /* LaunchScreen.storyboard */; };
 		E07BA4D31F43C8B2002C58EB /* DataSenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BA4D21F43C8B2002C58EB /* DataSenderTests.swift */; };
 		E07BA4DE1F43C8B2002C58EB /* DataSenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BA4DD1F43C8B2002C58EB /* DataSenderUITests.swift */; };
+		E07BA4EC1F43CA96002C58EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BA4EB1F43CA96002C58EB /* SecondViewController.swift */; };
+		E07BA4EE1F43D683002C58EB /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BA4ED1F43D683002C58EB /* PinkViewController.swift */; };
+		E07BA4F01F43D699002C58EB /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BA4EF1F43D699002C58EB /* YellowViewController.swift */; };
+		E07BA4F21F43DAC5002C58EB /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BA4F11F43DAC5002C58EB /* GreenViewController.swift */; };
+		E07BA4F41F43DAD3002C58EB /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BA4F31F43DAD3002C58EB /* BlueViewController.swift */; };
+		E07BA4F61F43E4AE002C58EB /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BA4F51F43E4AE002C58EB /* PurpleViewController.swift */; };
+		E07BA4F81F43E4BB002C58EB /* MintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BA4F71F43E4BB002C58EB /* MintViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		E07BA4D91F43C8B2002C58EB /* DataSenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataSenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07BA4DD1F43C8B2002C58EB /* DataSenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSenderUITests.swift; sourceTree = "<group>"; };
 		E07BA4DF1F43C8B2002C58EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07BA4EB1F43CA96002C58EB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E07BA4ED1F43D683002C58EB /* PinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		E07BA4EF1F43D699002C58EB /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		E07BA4F11F43DAC5002C58EB /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		E07BA4F31F43DAD3002C58EB /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		E07BA4F51F43E4AE002C58EB /* PurpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		E07BA4F71F43E4BB002C58EB /* MintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MintViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				E07BA4C41F43C8B2002C58EB /* Assets.xcassets */,
 				E07BA4C61F43C8B2002C58EB /* LaunchScreen.storyboard */,
 				E07BA4C91F43C8B2002C58EB /* Info.plist */,
+				E07BA4EB1F43CA96002C58EB /* SecondViewController.swift */,
+				E07BA4ED1F43D683002C58EB /* PinkViewController.swift */,
+				E07BA4EF1F43D699002C58EB /* YellowViewController.swift */,
+				E07BA4F11F43DAC5002C58EB /* GreenViewController.swift */,
+				E07BA4F31F43DAD3002C58EB /* BlueViewController.swift */,
+				E07BA4F51F43E4AE002C58EB /* PurpleViewController.swift */,
+				E07BA4F71F43E4BB002C58EB /* MintViewController.swift */,
 			);
 			path = DataSender;
 			sourceTree = "<group>";
@@ -262,8 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E07BA4F21F43DAC5002C58EB /* GreenViewController.swift in Sources */,
+				E07BA4EE1F43D683002C58EB /* PinkViewController.swift in Sources */,
+				E07BA4EC1F43CA96002C58EB /* SecondViewController.swift in Sources */,
 				E07BA4C01F43C8B2002C58EB /* ViewController.swift in Sources */,
+				E07BA4F61F43E4AE002C58EB /* PurpleViewController.swift in Sources */,
 				E07BA4BE1F43C8B2002C58EB /* AppDelegate.swift in Sources */,
+				E07BA4F01F43D699002C58EB /* YellowViewController.swift in Sources */,
+				E07BA4F41F43DAD3002C58EB /* BlueViewController.swift in Sources */,
+				E07BA4F81F43E4BB002C58EB /* MintViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myTextField: UITextField!
+    
+    @IBAction func next(_ sender: Any) {
+        
+        let textFieldstr = self.myTextField.text
+        
+        
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "secondview")
+        
+        
+        
+        if let secondVC = vc as? SecondViewController {
+            
+            secondVC.myStr = textFieldstr
+            
+            self.present(secondVC, animated: true, completion: nil)
+        }
+        
+        
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
